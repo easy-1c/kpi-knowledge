@@ -1,0 +1,14 @@
+versions:
+  - version: "1.0.0"
+    date: "2025-10-15"
+    description: "Первый релиз KPI каталога"
+    changes:
+      - "Добавлен каталог KPI (catalog/kpi_catalog.yaml)"
+      - "Добавлены правила валидации (rules/rules.yaml)"
+      - "Добавлена политика управления (policy/policy.md)"
+      - "Создана структура репозитория"
+    author: "easy-1c"
+    kpis_count: 4
+    
+current_version: "1.0.0"
+last_updated: "2025-10-15"
