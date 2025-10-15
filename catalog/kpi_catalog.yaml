@@ -1,0 +1,28 @@
+kpis:
+  - id: kpi_001
+    name: "Конверсия лидов"
+    description: "Процент лидов, которые становятся клиентами"
+    unit: "%"
+    target: 25
+    category: "sales"
+    
+  - id: kpi_002
+    name: "Средний чек"
+    description: "Средняя сумма заказа"
+    unit: "RUB"
+    target: 5000
+    category: "sales"
+    
+  - id: kpi_003
+    name: "NPS"
+    description: "Индекс потребительской лояльности"
+    unit: "score"
+    target: 50
+    category: "customer_satisfaction"
+    
+  - id: kpi_004
+    name: "Время ответа на обращение"
+    description: "Среднее время ответа на запрос клиента"
+    unit: "minutes"
+    target: 30
+    category: "support"
