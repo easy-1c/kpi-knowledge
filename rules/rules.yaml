@@ -1,0 +1,23 @@
+rules:
+  - id: rule_001
+    name: "Правило валидации KPI"
+    description: "Все KPI должны иметь уникальный ID, название и единицу измерения"
+    applies_to: "kpi_catalog"
+    
+  - id: rule_002
+    name: "Правило диапазона значений"
+    description: "Target значения должны быть положительными числами"
+    applies_to: "kpi_catalog"
+    validation: "target > 0"
+    
+  - id: rule_003
+    name: "Обязательные поля"
+    description: "Каждый KPI должен содержать: id, name, description, unit, target, category"
+    applies_to: "kpi_catalog"
+    required_fields: ["id", "name", "description", "unit", "target", "category"]
+    
+  - id: rule_004
+    name: "Категории KPI"
+    description: "Допустимые категории: sales, support, customer_satisfaction, operations"
+    applies_to: "kpi_catalog"
+    allowed_categories: ["sales", "support", "customer_satisfaction", "operations"]
